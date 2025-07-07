@@ -23,6 +23,11 @@ Fonts:
   This CSS uses the provided color palette and beginner-friendly styles.
 */
 
+/* This style makes the text inside elements with class 'cta-box' and 'sub' less bold */
+.cta-box .sub {
+  font-weight: 400;
+}
+
 /* Set up the main font and background color for the whole page */
 body {
   background-color: #f4f8fb; /* Soft light blue for a fresh look */
@@ -320,8 +325,4 @@ body {
   font-weight: bold;
   font-size: 1rem;
   text-align: center;
-}
-
-.cta-box .sub {
-  font-weight: 400;
 }
